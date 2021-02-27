@@ -33,7 +33,10 @@ body, html {
   font-size: 25px;
 
 }
-
+#button-label{
+  color: white;
+  font-size: 30px;
+}
 .page-heading {
   background-image: url(../img/barley-1117282_1280.jpg);
   background-repeat: no-repeat;
@@ -223,6 +226,7 @@ nav {
   display: none;
 }
 
+
 /* Modal Content */
 .modal-content {
   text-align: center;
@@ -365,8 +369,9 @@ footer a:hover {
 
 /* SECOND PAGE */
 
-
-
+#table-div{
+  color: white;
+}
 
 
 
@@ -414,7 +419,7 @@ footer a:hover {
   font-size: 36px;
   color: #fff;
   letter-spacing: 0.5px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 300;
 }
 
@@ -496,7 +501,9 @@ footer a:hover {
   width: 100%;
   overflow-y: hidden;
 }
-
+.page-entries{
+margin: 0px auto 0px auto;
+}
 
 .single-page-post .text-content {
   margin-top: 20px;
@@ -524,18 +531,27 @@ footer a:hover {
   font-size: 36px;
   color: #fff;
   letter-spacing: 0.5px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 300;
 }
 
 .single-page-post .text-content p {
   color: #bbb;
-  font-size: 16px;
+  font-size: 23px;
   font-weight: 300;
   line-height: 28px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
+#rest{
+  border-left: 2px solid white;
+  font-size: 13px;
+  padding: 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+
 
 
 
