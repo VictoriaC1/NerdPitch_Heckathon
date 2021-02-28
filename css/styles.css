@@ -19,7 +19,15 @@ body, html {
   min-height: 100%;
   overflow-x: hidden;
 }
-
+ .container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+ }
+ #rest{
+  color: white; 
+  font-size: 20px;
+ }
 .link-button{
   border: 1px solid white;
   padding:20px; 
@@ -549,6 +557,7 @@ margin: 0px auto 0px auto;
   padding: 20px;
   color: white;
   margin-top: 30px;
+  
 }
 
 
