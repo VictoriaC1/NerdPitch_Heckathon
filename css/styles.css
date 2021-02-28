@@ -24,10 +24,7 @@ body, html {
   display: flex;
   justify-content: center;
  }
- #rest{
-  color: white; 
-  font-size: 20px;
- }
+ 
 .link-button{
   border: 1px solid white;
   padding:20px; 
